@@ -84,5 +84,3 @@ Research Interests:
 * MATLAB
 * Python
 * Silvaco TCAD
-
----s project is licensed under the MIT Licen
