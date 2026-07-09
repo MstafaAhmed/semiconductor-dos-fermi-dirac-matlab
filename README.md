@@ -21,33 +21,7 @@ The current implementation supports multiple semiconductor materials, including:
 * Analytical calculation of the Density of States (DOS)
 * Material comparison using realistic effective masses
 * Fermi–Dirac distribution at a specified temperature
-* Occupied electron states, (g_c(E)f(E))
-* Occupied hole states, (g_v(E)[1-f(E)])
-* Numerical estimation of carrier concentrations
 * Publication-quality MATLAB figures
-* Well-documented and modular code
-
----
-
-## Physics Background
-
-The conduction-band density of states is
-
-[
-g_c(E)=\frac{1}{2\pi^2}\left(\frac{2m_e^*}{\hbar^2}\right)^{3/2}\sqrt{E-E_c}
-]
-
-The valence-band density of states is
-
-[
-g_v(E)=\frac{1}{2\pi^2}\left(\frac{2m_h^*}{\hbar^2}\right)^{3/2}\sqrt{E_v-E}
-]
-
-The occupation probability follows the Fermi–Dirac distribution
-
-[
-f(E)=\frac{1}{1+\exp\left(\frac{E-E_F}{kT}\right)}
-]
 
 ---
 
